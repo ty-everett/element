@@ -1,0 +1,171 @@
+body {
+	background-color:#440044;
+	color:#cccc00;
+	font-family:helvetica;
+}
+
+.UITextField {
+	margin:0.5em;
+	padding:0.1em;
+	border-radius:0.1em;
+	border:1px solid #cccc00;
+	background-color:white;
+	outline:none;
+	width:80%;
+	font-size:1.2em;
+}
+
+.UIButton {
+	background-color:#cccc00;
+	color:#220022;
+	font-weight:bolder;
+	border:2px solid #220022;
+	border-radius:0.25em;
+	padding:0.2em;
+	margin:0.5em;
+	text-transform:uppercase;
+	width:80%;
+	outline:none;
+	font-size:1.2em;
+}
+
+#splashimage {
+	width:50%;
+	margin-bottom:-2em;
+	position:relative;
+}
+#content_container {
+	position:relative;
+}
+
+#error_div {
+	position:fixed;
+	width:100%;
+	background-color:orange;
+	border-top:2px solid #220022;
+	color:#220022;
+	padding:1em;
+	padding-left:0em;
+	padding-right:0em;
+	margin:0px;
+	left:0px;
+	bottom:-200%;
+	text-align:center;
+	z-index:2;
+}
+
+#recovery_key_generator_background {
+	background-color:black;
+	opacity:0.4;
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	margin:0px;
+	padding:0px;
+}
+#recovery_key_generator {
+	position:fixed;
+	width:90%;
+	left:5%;
+	margin:0px;
+	background-color:#fefefe;
+	border-radius:0.5em;
+	border:2px solid #cccc00;
+	color:#220022;
+	top:2em;
+}
+#recovery_key_generator * {
+	margin:0.5em;
+}
+#recovery_key {
+	width:80%;
+	align:center;
+	text-align:center;
+	font-family:monospace;
+	background-color:#dadada;
+	padding:1em;
+	border:1px solid #999999;
+}
+#recovery_cancel {
+	background-color:#330033;
+	color:white;
+	border:none;
+	outline:none;
+	padding:0.7em;
+	float:left;
+	padding-right:1em;
+	padding-left:1em;
+	font-weight:1.3em;
+}
+#recovery_next {
+	background-color:#330033;
+	color:white;
+	border:none;
+	outline:none;
+	padding:0.7em;
+	float:right;
+	padding-right:1em;
+	padding-left:1em;
+	font-weight:1.3em;
+}
+#recovery_back {
+	background-color:#330033;
+	color:white;
+	border:none;
+	outline:none;
+	padding:0.7em;
+	padding-right:1em;
+	padding-left:1em;
+	font-weight:1.3em;
+}
+#recovery_verify {
+	background-color:#330033;
+	color:white;
+	border:none;
+	outline:none;
+	padding:0.7em;
+	float:right;
+	padding-right:1em;
+	padding-left:1em;
+	font-weight:1.3em;
+}
+#recovery_key_verify {
+	position:fixed;
+	width:90%;
+	left:200%;
+	margin:0px;
+	background-color:#fefefe;
+	border-radius:0.5em;
+	border:2px solid #cccc00;
+	color:#220022;
+	top:2em;
+}
+#recovery_key_verify * {
+	margin:0.5em;
+}
+#recovery_verify_text {
+	width:80%;
+	align:center;
+	text-align:center;
+	font-family:monospace;
+	background-color:#dadada;
+	padding:1em;
+	border:1px solid #999999;
+}
+
+#footer {
+	color:#999;
+}
+#footer a{
+	text-decoration:none;
+	color:orange;
+}
+#footer a:visited {
+	color:orange;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}

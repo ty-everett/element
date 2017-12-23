@@ -1,0 +1,148 @@
+body {
+	background-color:white;
+	color:black;
+	font-family:helvetica;
+	padding:0px;
+	margin:0px;
+}
+.header {
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid #ffff00;
+	text-align:center;
+	background-color:#440044;
+	z-index:2;
+}
+.main {
+	text-align:center;
+	margin:0.7em;
+	color:yellow;
+	margin-left:0px;
+	margin-right:0px;
+}
+.content {
+	color:black;
+	background-color:white;
+	padding-top:4.5em;
+}
+.messages {
+	color:black;
+	background-color:white;
+	padding-top:4.5em;
+}
+.bottomtabs {
+	position:fixed;
+	width:100%;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	border-top:1px solid #ffff00;
+	margin:0px;
+	padding:0px;
+	align:center;
+	text-align:center;
+	z-index:2;
+	background-color:#440044;
+}
+.tab {
+	display:inline-block;
+	width:15.5%;
+	margin:0;
+	padding:0;
+}
+.selectedtab {
+	background-color:#660066;
+	border-left:1px solid #aa4466;
+	border-right:1px solid #aa4466;
+}
+.tab img {
+	position:relative;
+	width:90%;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+.currenttab {
+	border-left:1px solid #ffff00;
+	border-right:1px solid #ffff00;
+}
+#error_div {
+	position:fixed;
+	width:100%;
+	background-color:orange;
+	border-top:2px solid #220022;
+	color:#220022;
+	padding:1em;
+	padding-left:0em;
+	padding-right:0em;
+	margin:0px;
+	left:0px;
+	bottom:-200%;
+	text-align:center;
+	z-index:2;
+}
+#searchbutton{
+	vertical-align:middle;
+	display:block;
+	font-size:2em;
+}
+#searchtext {
+	width:90%;
+	border:none;
+	outline:none;
+	background-color:#330033;
+	color:white;
+	border-radius:0.2em;
+	padding:0.2em;
+}
+.searchlist {
+	margin-top:0.5em;
+}
+.contact {
+	border-bottom:1px solid #cccccc;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	margin:0px;
+	padding-bottom:1em;
+	padding-top:1em;
+	padding-left:1.5em;
+	width:100%;
+	background-color:transparent;
+	outline:none;
+	align:left;
+	text-align:left;
+}
+.contact p {
+	margin:0px;
+	padding:0px;
+}
+
+.UISubtext {
+	color:#999999;
+}
+.UICenterHorizontal {
+	text-align:center;
+	align:center;
+}
+.UIFloatRight {
+	float:right;
+}
+.UIFloatLeft {
+	float:left;
+}
+.UIButton {
+	background-color:#330033;
+	color:yellow;
+	border:none;
+	outline:none;
+	padding:0.4em;
+	border-radius:0.1em;
+	font-size:1.2em;
+	text-transform:upper;
+	font-weight:bold;
+}

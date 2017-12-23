@@ -1,0 +1,35 @@
+<h2>Preface</h2>
+<p>Element Communications was created as the world's solution to the problem of
+privacy and distraction on the internet. As such, we are obligated to protect
+the privacy, anonymity, and security of all our users. In order that we achieve
+this goal, Element has created this document to outline a few basic rules all
+participants in our platform are to follow. Failure to follow the rules below
+will result in restrictions being placed on your account, or the termination
+of your account at Element's discretion.</p>
+<h2>Content</h2>
+<p>Content you post to the Element platform or app should conform to the
+guidelines below.</p>
+<ul>
+<li><b>Non-offensive:</b> You are not allowed to post anything which is
+offensive, derogatory, horassing, not suitable for immature audiences, or
+any content that is deemed by Element to be unfit for the platform.</li>
+<li><b>Illegal:</b> Do not post illegal content, or content which expressly
+condones or encourages illegal activities.</li>
+</ul>
+<p>Content which does not conform with these guidelines may be deleted or
+the poster's account restricted at Element's discretion.</p>
+<h2>Spam</h2>
+<p>Bots, advertising, or other accounts which aren't controlled by a human
+person are prohibited. Such accounts will be deleted. Element employs CAPCHA
+technology and other anti-spam techniques to get rid of spam.</p>
+<h2>Updates</h2>
+<p>If Element decides to change the Terms of Service, we will notify all
+users of the changes and give at least a month's notice (thirty days) before
+making the changes live. All users will be required to accept the new terms
+before continuing to use the platform.</p>
+<h2>Agreement</h2>
+<p>By creating an account on the Element platform, you are agreeing that you
+have read and agree to the content of this document. You agree to follow the
+guidelines and rules set forth. You agree that if you fail to do so, your
+account may be restricted or deleted. You also agree to our <a href="/privacy.php">privacy statement</a>
+which can be found at https://element.tk/privacy.php.</p>

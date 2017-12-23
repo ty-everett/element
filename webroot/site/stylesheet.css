@@ -1,0 +1,40 @@
+body {
+	font-family:helvetica;
+	padding:0px;
+	margin:0px;
+}
+.content {
+	padding:1em;
+	margin:1em;
+}
+.footer {
+	color:#777777;
+}
+a {
+	text-decoration:none;
+	font-weight:bold;
+}
+a:visited {
+	color:blue;
+}
+.navigation {
+	text-align:center;
+	width:100%;
+	padding:1em;
+	border-bottom:1px solid blue;
+}
+.navigation a {
+	padding:1em;
+}
+input {
+	margin:0.5em;
+	background-color:transparent;
+	color:blue;
+	padding:0.2em;
+	border-radius:0.3em;
+	border:0.1em solid blue;
+}
+.date {
+	color:#888888;
+	margin-top:-1em;
+}

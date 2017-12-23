@@ -1,0 +1,5 @@
+<p>Privacy is our pollicy. That's about it. Check back for a more detailed pollicy once we launch.
+If you know any lawyers who'd like to volunteer their time To help create
+a user-oriented privacy statement for Element, please <a href="https://tyweb.us/contact/">contact me</a>.</p>
+<p>We are unable to provide data to courts, governments, law enforcement, or anyone else when ordered. This is
+because everything is encrypted and cannot be accessed by any unauthorized parties.</p>

@@ -1,0 +1,31 @@
+Given 12 RX 580 GPUs mining XMR:
+
+1 GPU = 750 H/s on XMR [liberal]
+1 GPU = 100W [conservative]
+combined hashrate = 9000 H/s
+combined wattage = 1500W
+
+price electricity = 0.10/kWh in Medford
+
+price of 1 GPU = $300 [at the lowest]
+total investment = $3600
+
+9000 H/s yields $20 / day
+
+total yield = $600 / month
+
+power/mo = (1500 / 1000) * 0.1 * 24 * 30 = $108
+
+profit / month = $492
+
+3600 / 492 = 7.31 months until investment recuperated
+
+after which $492 profit will continue per month
+
+Given network difficulty, cost of power and exchange
+rates remain constant, a gain of $492 / month will 
+remain constant.
+
+GPU:
+
+https://www.newegg.com/Product/Product.aspx?Item=n82e16814137117&nm_mc=KNC-GoogleKWLess&cm_mmc=KNC-GoogleKWLess-_-DSA-_-CategoryPages-_-NA&gclid=Cj0KCQiAlpDQBRDmARIsAAW6-DOaQgV2I59QwN3Jka7Re-280c4qVbgvWLRBXYoNOHqNGi9HrRBm28caAgpFEALw_wcB&gclsrc=aw.ds

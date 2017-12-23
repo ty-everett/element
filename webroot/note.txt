@@ -1,0 +1,44 @@
+This note is for anyone who stumbles across this code or the disk it's on:
+
+Firstly, please determine if Ty Everett/Tyler Sands is still able to work on
+the project. If he is, please notify him that the code was found. Thank you.
+
+If he is not able to work on the project (if he is missing, imprisoned, dead,
+insane, or otherwise not fit or willing to work on the continuation of this
+project) please continue development.
+
+If you don't know how to work on the project, please find someone who does.
+This project is of significant benefit for the world, because it serves as a
+deterrent to dragnet surveillance.
+
+Upload the code to GitHub. Get a group of developers motivated. Get the word out.
+The world needs a solution to the privacy problem. We need to be able to
+communicate freely.
+
+I want to first get a centralized server-client model developed for secure,
+two-person messaging (and/or group messaging), using ringsigs for security.
+
+Once that's done, I want to move this project to the blockchain. I want it to
+use some decentralized DHT or something for data storage, and I want it not to
+be ablt ot be censored or controlled by any central authority.
+
+So either some sort of sharding blockchain, or a P2P DHT network of some kind.
+There are people more familiar with this than I am.
+
+Once it's been put on a decentralized, censorship-resistant, and SCALABLE
+network, I want to make it as USER-ORIENTED AND USER-FRIENDLY to use as
+humanly possible. I know a good front-end and mobile apps are hard, but this
+is important for adoption.
+
+Then, we need to open it up to developers as a platform.
+I envision a place where people can build decentralized communication apps and
+services which are uncensorable and enforced by blockchain smart contracts.
+It should work such that anyone can set up a service, and have all user data
+encrypted and inaccessible to the creator of the service or any unauthorized
+users.
+
+To the developers, don't focus on the features of this service, make it a
+platform for new services to spawn and operate in a completely secure way.
+
+To the future.
+I am not Satoshi Nakamoto.
