@@ -1,0 +1,27 @@
+Encryption and Data Protection
+
+This document describes the methods by which data is stored, transmitted, processed, and encrypted when traversing the Element network and set of front-end applications.
+
+Physical Protections
+
+All servers and network equipment which host Element Communications data are stored are under constant internal and external surveilance. Any unauthorized intrusions are reported immediately.
+
+All servers which store Element communications data for any length of time greater than 100 miliseconds are full-disk encrypted using AES256. The encryption passphrases associated with these disks are psudo-randomly generated 64-byte text strings. Each server has a unique passphrase. Each passphrase is stored independantly in a separate physical location. One person never knows the locations to all of the passphrases. This provides a reasonable assurance that no unauthorized physical access or modification of server or network hardware will ever take place.
+
+Network Protection
+
+All communications into and out of the Element network are encrypted by TLS based on, at a minimum, 2048-bit RSA keys. All communications between servers on the Element network are also encrypted in the same way. In the event that sufficient evidence accumulates to suggest that any government agency or other entity is capable of using quantum computers or Shor's algorithm to break RSA encryption, the Element Communications developers will immediately post a notice on the website and proceed to move to lattice-based encryption on all systems. This provides a reasonable assurance that unauthorized access to or modification of network traffic will never take place.
+
+Web Application Security
+
+In addition to being encrypted from FDE, all data in the SQL database is encrypted with AES256 by user account keys which are accessible only by the account passwords, with the exception of the Email address and username which are used for identifying the user.
+
+When user A sends a friend request to user B, user A signs a cryptographic certificate with their account's private key authorizing that they have sent a friend request to user B. The request is encrypted to user B's public key. All account private keys are encrypted by the account's master key, which is encrypted by the account's password and re-encrypted whenever the account password is changed. When user B logs in, they will see they have a new friend request and will decrypt it with their private key, accessible only to them. The friend request is authenticated when user B signs a request back to user A. Either one of them can revoke their signature by deleting it from the databse, in which case the other party can no longer access their information.
+
+Message security
+
+Whenever user A wants to send a message to user B, they encrypt it to the public key of user B. This message will only be accessible to user B with their private keys, which cannot be accessed by the developers because the private key is encrypted by the master key for the account. The master key cannot be accessed by the developers because it is encrypted with the current account password. The password cannot be accessed by the developers because the password is never stored. Thus the messages remain unreadable and the NSA remains unhappy. Files and media are sent in the same way.
+
+Posts only viewable by friends
+
+When user A posts a picture on their account, who's contents he has set to only be visible to his friends, he encrypts the picture with a file key. The file key is encrypted with his master key. For each of his friends, he encrypts a copy of the file key with his private key and sends it to their public key. Now they can decrypt the file key and view the image. Text-only posts are encrypted directly, without the use of file keys. Public content remains unencrypted.

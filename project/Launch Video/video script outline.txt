@@ -1,0 +1,84 @@
+ When you signed up for Facebook, did you read the terms and conditions?
+ How much data do these companies really collect on every one of their users?
+ What do they really know about us?
+ well, let's start with this
+  what information can our phones collect
+   GPS information
+   Microphone data and speach recognition
+   Camera
+   Fingerprint
+   Gyroscope
+   workout habits
+   speep patterns
+   our interests
+   our friends and enemies
+   our spending patterns
+   our driving patterns and whether we're speeding or not
+   and much, much more
+  our phones are really just portable data gathering machines
+ but who do they share this information with? and more importantly, why?
+  well, wouldn't advertisers want to know how often you spend how much money where?
+  wouldn't Facebook wanna know who hangs out where?
+   and maybe even control it
+  and wouldn't the Government wanna know if you're speeding?
+ as a society, we need to be asking ourselves, who are the real customer here.
+  Is it the two billion people getting Facebook for free,
+  or is it the advertisers and governments who buy our attention and our information
+how do they keep us hooked?
+ the interfaces are being designed to keep us scrolling
+  we have the illusion of choice
+   spend 20 minutes looking at the latest news
+    and see their ads
+   or, spend 20 minutes watching funny videos
+    and see their ads
+   or better yet, tell them where you went for dinner last night
+    and see their ads
+ so why don't we stop using these devices?
+  the apps we use are designed to create anxiety so we keep 
+   coming back to see if we've missed anything
+  the reward we get from "checking in" with these apps keeps
+   us wanting more
+  endless content is being shown to us in case we ever get
+   bored
+ all it takes for these companies to grab our attention right back
+  is just a single notification
+   it's automatic
+but this isn't the way things should be
+we need to be able to tell our devices how we want to spend our time, not the other way around
+we need to be in control of what these companies can see
+ I built Element with people like me in mind
+  people who value their privacy
+  who don't want google or the government or their ex to be able to spy on their personal data
+  people who value their time and energy
+  who are tired of getting a Facebook notification and realizing they just wasted another 20 minutes
+  people who want something better
+ I designed it differently than any other network out there
+  it's not that I tell you I won't look at your stuff
+   I can't
+  backed by encryption, the code is available to anyone
+  let's say the NSA came up to me and asked me to turn over
+   all the data. I wouldn't be able to, because it's secured
+   with each individual account password.
+  what this means is that advertisers, governments, and even I
+   won't be able to see what you share.
+ I also built it with productivity in mind.
+  there's a busy switch 
+   when you turn it on, if someone sends you a message, they'll
+    get an alert that says "Tod is busy. Is it important?"
+    If you say yes, he'll still be notified. But if you say no,
+    he'll get the notification when he next checks his phone,
+    or when his busy timer runs out.
+ features like this make Element stand apart from the other
+  large networks like Facebook and SnapChat.
+I built it this way for a reason
+ because I believe privacy should be automatic, not some setting
+ because I believe we should be in control of how we spend our
+  time
+ because our attention shouldn't be sold to advertisers
+ because technology should be built to serve the user, not the
+  other way around
+ and I did it because no one else will
+Element
+ Join Freedom
+ Join Today
+ at element.tk

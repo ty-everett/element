@@ -1,0 +1,21 @@
+This document describes the key design points of the Element Communications network. How the ideas and topics discussed within this document are implemented can be found in accompanying documentation.
+
+Users
+
+Within the Element Communications Network "Element" or "the network", there are user accounts. User accounts are created when a user registers for the website. Users can manage all aspects of their accounts from within the network, and they can also delete their accounts. All users have a profile, which is set by default to be visible only to friends. The other option is to set the profile to be public. This setting is cryptographically enforced. Please consult the Encryption and Data Protection document for more details on how this happens.
+
+Posts
+
+Users can use their accounts to make posts on the website. Posts are not to be confused with messages. Posts are either text-based, or they can include a maximum of 3 files per post. Files can be audio, images, or videos. Each file has a max file size of 250MB.
+
+Anonymous posts
+
+Posts can either be anonymous and public (posted to the anonymous tab), or they can be associated with your account. If a post is anonymous, no information about the poster will be stored, and the post cannot be deleted by the poster. Anonymous posts cannot contain files, and have a maximum character limit of 1000 characters. This is to protect unsuspecting users from malicious activity. Comments have the same restriction, and are also anonymous. However, comments can be upvoted and downvoted similar to Reddit.
+
+Messages
+
+Messages are text or media exchanged between users. Messages can be sent between all users regardless of whether they are friends, but messages sent between non-friended users cannot contain files. Messages are also limited to 1000 characters, and another message cannot be sent until the first message has been replied to. This is to prevent malicious attacks on unsuspecting users.
+
+Friends
+
+Users can send each other requests to become friends. When a user accepts a friend request, the user is allowing the requester to see their information. This is cryptographically enforced, please see the accompanying documentation entitled Encryption and Data Protection for more info. The user's name and username are always public. When a user's account is a public account, all their information is public. When a user's account is private, no other information can be accessed without authorization.

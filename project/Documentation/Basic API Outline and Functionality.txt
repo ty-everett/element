@@ -1,0 +1,10 @@
+Basic API Outline and Functionality
+
+Within the document root of the web domain, there will be an API folder which will house the API implementation. All storage, retrieval, and authentication of information will originate from calls to this API.
+
+The API will be implemented in PHP, and will communicate with an SQL database server at the backend. At the public-facing side, it will send and recrive information using JSON. All API calls willl necesarily be encrypted over SSL to prevent basic MITM and other network and communication-layer attacks.
+
+The API will be spread across multiple files, or "applets", within the directory. Each applet is responsible for preforming a vary limited number of predefined functions. This is set up such that there is no ambiguity within the API.
+
+auth.php
+

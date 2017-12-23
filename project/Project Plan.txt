@@ -1,0 +1,72 @@
+Element Communications -  plan of action
+
+Reserve the domain element.tk and set up DNS
+Obtain an SSL certificate for the domain
+make a video
+ write a script
+ find or create images
+ find or create music
+temporarily put the video on the site
+learn
+ how to combat the design flaws of other networks
+ how to market the project
+ how to securely and legally handle user data
+ how to write a ledgible and short privacy statement
+ how to make and animate the desktop site
+ how to make a "smart" mobile site
+ how to make android apps
+ how to make iphone apps
+ how to make windows apps
+ how to speak in public about the issue
+decide on an initial subset of features for launch
+do it
+ plan the user interface and animations
+  mobile
+  desktop
+  tablet
+ decide what is required to register
+ decide how to host it
+ lock things down
+  web server
+  database server
+  operating system
+  OS users
+  DB users
+  Web Users
+  encrypt all the things
+ get a frontend DBMS like PHPMyAdmin
+  secure it
+ learn advanced SQL stuff so I don't screw up
+  define the tables
+  make sure everything is encrypted properly
+  set up SQL user permissions
+ make sure the web user account can't do anything it shouldn't
+ one last security check / audit / maybe a pentester
+  analyze everything so it doesn't get hacked
+   threat model
+   attack vectors
+   credential storage and access
+ write the universal backend functions for db stuff
+  make the backend stuff MODULAR and DONT mix with the HTML
+ android app
+  ----
+ iPhone app
+  ----
+ make the desktop site ONCE THE APPS WORK
+  ----
+ windows universal app
+  ----
+ mitegate spam (NOT google reCAPCHA, they collect data)
+get the word out
+ advertise
+  Google AdWords (irony is real tho)
+  Vungle
+  Patreon
+ public speaking
+  Senior Project Demonstration
+Avoid the following:
+ getting asassinated by a fortune 500 company
+ getting infiltrated by a tech giant before we get off the ground
+ getting discredited
+ getting in legal trouble
+ losing control of the site / domain / company somehow

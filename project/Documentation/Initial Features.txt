@@ -1,0 +1,27 @@
+Element Communications - Initial Features
+
+This document describes the initial feature set for the target launch date of no later than January 1st, 2018. By that time, the network will need to feature, at the minimum, the items on this list.
+
+The ability for the user to sign up, log into, and interact with the website from all major browsers and platforms in an intuitive and engaging way.
+
+The ability for the user to view, edit, and delete all aspects of their profile, friends list, and account from within the user interface.
+
+The ability for the user to send, accept, and reject friend requests.
+
+The ability for the user to send, receive, and unsend messages to other users in a secure way.
+
+The ability for the developer to receive feedback from the users in a streamlined, intuitive, and non-disruptive way.
+
+The inability for the developer, or any unauthorized third party to access or modify user account, messaging, or other data about who is communicating with whom across the service.
+
+The ability for users to specify an enforced amount of time they would like to spend (at a maximum), per day on the service.
+
+The ability for the user to enter and exit "busy mode" in an intuitive way, and for the user to be able to specify a length of time before busy mode expires.
+
+The ability for the user to upload photos and videos to their public profile, and to send photos and videos in an encrypted form via the messaging platform.
+
+The ability for the user to create and participate in group conversations in a secure way.
+
+The ability for the user to completely and permanently purge their account data from the system.
+
+The ability for the user to receive push notifications from the service.
