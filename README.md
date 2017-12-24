@@ -14,3 +14,10 @@ If you want to get a copy of the APK file, the SQL data structure,
 if you need me to turn on the web server for any reason, or with
 any questions, don't hesitate to contact me through GitHub or
 email ty.everett49 at i cloud dot_com 
+
+I would also like to thank mgks for their excellent work on creating
+a pre-built Android WebView Android project. This saved me a lot of
+time, and your effort is greatly appreciated.
+https://github.com/mgks/Android-SmartWebView
+
+The license of this project is the MIT license.
